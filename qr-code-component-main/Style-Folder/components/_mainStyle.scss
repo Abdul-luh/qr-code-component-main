@@ -3,27 +3,34 @@
 
 body {
 	background-color: $background-color;
-	// vertical-align: middle;
-	// display: flex;
-	// flex-direction: column;
-	// justify-content: center;
+	display: flex;
+	flex-direction: column;
 	// align-items: center;
-	// padding: 0 2rem;
+	justify-content: center;
+	// justify-items: center;
+	height: 100vh;
+	overflow-x: hidden;
+
 	.card-body {
 		img {
 			display: block;
 			border-radius: 1rem;
 			max-width: 100%;
-			height: 20rem;
+			// height: 20rem;
 		}
 		h1 {
 			font-family: $h1-font-family;
 			font-size: $h1-font-size;
+			text-align: center;
 		}
-		display: flex;
-		flex-direction: column;
-		justify-self: center;
-		align-self: center;
+		p {
+			color: $textColor;
+			margin-top: 20px;
+			font-size: $p-font-size;
+			font-weight: 400;
+			text-align: center;
+			width: 260px;
+		}
 		padding: 1rem;
 		border-radius: 1rem;
 		min-width: 16rem;
@@ -31,7 +38,5 @@ body {
 		min-height: 30rem;
 		background-color: $card-background;
 		margin: auto;
-		// width: 25rem;
-		// height: 30rem;
 	}
 }
