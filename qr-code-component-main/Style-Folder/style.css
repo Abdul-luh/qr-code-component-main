@@ -19,9 +19,8 @@ body {
 body .card-body {
   padding: 1rem;
   border-radius: 1rem;
-  min-width: 16rem;
-  max-width: 22rem;
-  min-height: 30rem;
+  min-width: 12rem;
+  max-width: 16rem;
   background-color: hsl(0deg, 0%, 100%);
   margin: auto;
 }
@@ -32,15 +31,24 @@ body .card-body img {
 }
 body .card-body h1 {
   font-family: "Outfit ";
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   text-align: center;
+  margin: 5px 0;
 }
 body .card-body p {
   color: hsl(218deg, 44%, 22%);
   margin-top: 20px;
-  font-size: "15px";
+  font-size: 0.86rem;
   font-weight: 400;
   text-align: center;
-  width: 260px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 /*# sourceMappingURL=style.css.map */
